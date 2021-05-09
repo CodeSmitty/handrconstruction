@@ -107,9 +107,13 @@ body, html{
 
 
 .content-wrapper{
-    width:80%;
     position:relative;
-    margin:200px auto;
+    top:200px;
+
+}
+
+.content-title{
+    color:#191009;
 }
 
 @media  screen and (max-width: 990px) {
