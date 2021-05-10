@@ -130,6 +130,11 @@ main{
     background-color:#191009;   
 }
 
+.paint-img-container{
+    background-color:#191009;
+    
+}
+
 @media  screen and (max-width: 990px) {
     .navbar-collapse{
     position:relative;
