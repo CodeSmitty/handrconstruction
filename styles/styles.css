@@ -130,10 +130,24 @@ main{
     background-color:#191009;   
 }
 
-.paint-img-container{
-    background-color:#191009;
-    
+
+
+.job-img{
+    width:200px;
+    height:200px;
+    object-fit:cover;
 }
+
+.white-first{
+    background-color:white;
+}
+
+.brown-first{
+    background-color:#191009;
+    color:#A3E8FC;
+}
+
+
 
 @media  screen and (max-width: 990px) {
     .navbar-collapse{
