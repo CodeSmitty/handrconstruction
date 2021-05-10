@@ -4,6 +4,15 @@ body, html{
 }
 
 
+.header-section{
+    position:fixed;
+    z-index:1000;
+    width:100%;
+}
+
+main{
+    padding-top:100px;
+}
 
 .header{
     background-color:#191009;
@@ -11,7 +20,7 @@ body, html{
     height:120px;
     display:flex;
     flex-flow:row nowrap;
-    position:fixed;
+   
 }
 
 .logo-wrapper{
@@ -71,7 +80,7 @@ body, html{
 
 
 .cover-header-container{
-     position: relative;
+     /* position: relative; */
      z-index:-1;
     top:120px;
     width:100%;
@@ -106,14 +115,19 @@ body, html{
 }
 
 
-.content-wrapper{
-    position:relative;
-    top:200px;
 
+
+.painting{
+    background-color:#191009;
+    color:#A3E8FC;
 }
 
 .content-title{
     color:#191009;
+}
+
+.card-footer{
+    background-color:#191009;   
 }
 
 @media  screen and (max-width: 990px) {
@@ -128,6 +142,8 @@ body, html{
 
 
 @media screen and (max-width:767px){
+
+ 
 
     .cover-title-container{
         width: 90%;
@@ -156,6 +172,9 @@ body, html{
     margin: auto 0;
     flex: 0 0 30%;
 }
+
+  
+
 }
 
 
