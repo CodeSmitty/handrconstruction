@@ -2,10 +2,12 @@ body,
 html {
   margin: 0;
   padding: 0;
+  background-image: linear-gradient(to left bottom, #f2f7ff, #e3f2ff, #d0eeff, #bbebff, #a3e8fc);
 }
 
 .header-section {
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
+  background-image: linear-gradient(to left bottom, #f2f7ff, #e3f2ff, #d0eeff, #bbebff, #a3e8fc);
   position: fixed;
   z-index: 1000;
   width: 100%;
