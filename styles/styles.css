@@ -2,7 +2,15 @@ body,
 html {
   margin: 0;
   padding: 0;
+  
+}
+
+body{
+    height:100%;
   background-image: linear-gradient(to left bottom, #f2f7ff, #e3f2ff, #d0eeff, #bbebff, #a3e8fc);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
 }
 
 .header-section {
