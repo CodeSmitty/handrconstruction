@@ -5,7 +5,7 @@ html {
 }
 
 .header-section {
-  background-color: #faf7f4;
+  background-color: #fafafa;
   position: fixed;
   z-index: 1000;
   width: 100%;
@@ -159,7 +159,7 @@ footer {
 @media screen and (max-width: 990px) {
   .navbar-collapse {
     position: relative;
-    background-color: #191009;
+    background-color: #ffffff;
     top: 20px;
     text-align: center;
     border-radius: 15px;
